@@ -42,7 +42,6 @@ function activate(context) {
 	context.subscriptions.push(python);
 	context.subscriptions.push(consoleJsGame);
 }
-
 // This method is called when your extension is deactivated
 function deactivate() {}
 
