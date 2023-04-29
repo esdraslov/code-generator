@@ -13,8 +13,8 @@
   "main": "./extension.js",
   "contributes": {
     "commands": [{
-      "command": "code-generator.helloWorld",
-      "title": "Hello World"
+      "command": "code-generator.pythonCode",
+      "title": "generate python code"
     }]
   },
   "scripts": {
