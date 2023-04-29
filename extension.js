@@ -7,7 +7,7 @@ const pythonCodesExample = [
 	'from flask import Flask\n\napp = Flask(__name__)\n\n@app.route("/")\ndef home():\n		return "hello world"\n\nif __name__ == "__main__":\n	app.run(debug=True)'
 ]
 const consoleGames = [
-	'console.log(Math.round(Math.random() * 9) + Math.round(Math.random() * 9))',
+	'let count = Math.round(Math.random() * 9) + Math.round(Math.random() * 9))+"";\nconsole.log(count)\nfunction response(result){\n	if(result == eval(count)){\n		console.log("you win!")',
 	'any'
 ]
 
@@ -40,6 +40,7 @@ function activate(context) {
 	});
 
 	context.subscriptions.push(python);
+	context.subscriptions.push(consoleJsGame);
 }
 
 // This method is called when your extension is deactivated
