@@ -15,6 +15,9 @@
     "commands": [{
       "command": "code-generator.pythonCode",
       "title": "generate python code"
+    }, {
+      "command": "code-generator.jsConsoleGame",
+      "title": "generate a js console game"
     }]
   },
   "scripts": {
