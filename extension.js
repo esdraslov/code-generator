@@ -43,9 +43,7 @@ function activate(context) {
 	context.subscriptions.push(consoleJsGame);
 }
 // This method is called when your extension is deactivated
-function deactivate() {
-	vscode.window.showInformationMessage(`ok, the code is:\n ${consoleGames[Math.round(Math.random())]}`);
-}
+function deactivate() {}
 
 module.exports = {
 	activate,
